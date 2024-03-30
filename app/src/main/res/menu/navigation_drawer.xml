@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kunjungan"
+            android:title="8 kunjungan"/>
+        <item
+            android:id="@+id/dilihat"
+            android:title="31 kali dilihat">
+        </item>
+    </group>
+
+    <group android:id="@+id/menu2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/grup"
+            android:title="Grup"/>
+        <item
+            android:id="@+id/events"
+            android:title="Events">
+        </item>
+    </group>
+
+</menu>

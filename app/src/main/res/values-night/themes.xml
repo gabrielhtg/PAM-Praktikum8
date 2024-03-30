@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LinkedinBaru" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="bg_halaman_utama">
+        <item name="android:background">
+            @color/bg_super_dark
+        </item>
+    </style>
+
+    <style name="ButtonOutlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BoldMenuItemStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:background">@color/bg_postingan_dark</item>
+    </style>
+
+    <style name="BottomBarStyle">
+        <item name="android:background">@color/bg_postingan_dark</item>
+    </style>
+
+    <style name="StyleBagianBawahPostingan">
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="BgPostingan">
+        <item name="android:background">@color/bg_postingan_dark</item>
+    </style>
+
+    <style name="StyleLogo">
+        <item name="tint">@color/white</item>
+    </style>
+</resources>

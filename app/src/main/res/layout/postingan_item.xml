@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+
+    <include app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/bagian_atas_postingan"
+        style="@style/BgPostingan"
+        layout="@layout/bagian_atas_postingan"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/bagian_atas_postingan"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/bg_halaman_utama"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/tempat_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/gambar_postingan"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/semat"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider1"
+            app:layout_constraintDimensionRatio="H,1:1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/gambar_postingan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        layout="@layout/bagian_bawah_postingan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BgPostingan"
+        app:layout_constraintTop_toBottomOf="@id/tempat_gambar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

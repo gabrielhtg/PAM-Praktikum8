@@ -1,0 +1,45 @@
+<resources>
+    <style name="Base.Theme.LinkedinBaru" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/white</item>
+    </style>
+
+    <style name="Theme.LinkedinBaru" parent="Base.Theme.LinkedinBaru" />
+
+    <style name="bg_halaman_utama">
+        <item name="android:background">#E8E5DF</item>
+    </style>
+
+    <style name="ButtonOutlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/btn_text_light</item>
+    </style>
+
+    <style name="BoldMenuItemStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Base.Theme.LinkedinBaru.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.Theme.CloneLinkedin.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Base.Theme.CloneLinkedin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BgPostingan">
+        <item name="android:background">@color/bg_postingan_light</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="BottomBarStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="StyleLogo">
+        <item name="tint">@color/black</item>
+    </style>
+</resources>

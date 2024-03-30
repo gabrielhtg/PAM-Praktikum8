@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_primary">#0A66C2</color>
+    <color name="btn_text_light">#666666</color>
+    <color name="dark_bg">#1B2124</color>
+    <color name="bg_super_dark">#000100</color>
+    <color name="bg_postingan_dark">#141218</color>
+    <color name="bg_postingan_light">#FFFFFF</color>
+</resources>

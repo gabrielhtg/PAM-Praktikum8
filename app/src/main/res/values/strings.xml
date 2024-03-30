@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LinkedIn Clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="caption_1">
+        Saya sangat bersyukur dan berterima kasih karena sudah menyelesaikan proyek pabwe yang sangat kece. Sekarang saya akan melanjutkan perjalanan saya sebagai seorang mahasiswa informatika yang berbudi luhu dan ceria. 😭
+    </string>
+
+    <string name="caption_2">
+        Saya sangat senang mengikuti acara di PDIP. Saya merasa saya menjadi politikus yang semakin hebat semenjak bergabung dengan partai ini. Semoga partai ini semakin JAYA JAYA JAYA selalu. Sehinngga INDONESIA dapat menjadi lebih maju seterusnya. 🔥🤩
+        \n\n#INDONESIAHARGAMATI
+        \n#PDIP
+    </string>
+</resources>
